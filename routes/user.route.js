@@ -20,4 +20,6 @@ router.post('/insegnanti', createInsegnantiController)
 
 router.post('/createStage', createStageController)
 
+console.log("user.route.js")
+
 export { router }
