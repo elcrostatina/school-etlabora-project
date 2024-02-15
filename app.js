@@ -3,8 +3,10 @@ import express from 'express'
 const app = express()
 const port = 3000
 
+import 'dotenv/config'
+
 import { router as classRouter } from './routes/classesRoutes.js';
-import { router as accountRouter } from './routes/classesRoutes.js';
+import { router as accountRouter } from './routes/account.router.js';
 import { router as docentiRouter } from './routes/docenti.router.js'
 import { router as userRouter } from './routes/user.route.js'
 
