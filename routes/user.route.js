@@ -10,7 +10,7 @@ import {
 
 router.post('/createWorkshop', createWorkshopController);
 
-router.post('linguaggio', createLinguaggioController);
+router.post('/linguaggio', createLinguaggioController);
 
 router.get('/workshop/:stageId', getWorkshopByIdController);
 
